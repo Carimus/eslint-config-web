@@ -34,6 +34,11 @@
         "camelcase": "error",
         "no-confusing-arrow": "error",
         "no-var": "error",
-        "no-console": "error"
+        "no-console": "error",
+        "arrow-parens": ["error", "always"],
+        "jest/no-disabled-tests": "warn",
+        "jest/no-focused-tests": "warn",
+        "jest/no-identical-title": "warn",
+        "jest/valid-expect": "warn"
     }
 }
