@@ -34,7 +34,8 @@
         "index.js",
         "eslintrc.json",
         "package.json",
-        "yarn.lock"
+        "yarn.lock",
+        "README.md"
     ],
     "peerDependencies": {
         "eslint": ">=6",
