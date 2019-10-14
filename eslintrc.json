@@ -1,0 +1,39 @@
+{
+    "env": {
+        "jest/globals": true,
+        "browser": true
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 7,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "modules": true,
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "plugins": ["babel", "jest"],
+    "extends": [
+        "eslint:recommended",
+        "standard",
+        "prettier",
+        "prettier/standard"
+    ],
+    "rules": {
+        "no-prototype-builtins": "error",
+        "curly": ["error", "all"],
+        "multiline-comment-style": ["error", "starred-block"],
+        "max-len": [
+            "error",
+            {
+                "code": 140,
+                "ignoreUrls": true
+            }
+        ],
+        "no-undefined": "error",
+        "camelcase": "error",
+        "no-confusing-arrow": "error",
+        "no-var": "error",
+        "no-console": "error"
+    }
+}
