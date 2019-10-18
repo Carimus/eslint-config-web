@@ -17,7 +17,9 @@ eslint.
     -   require camel cased variable names
     -   some other minor tweaks built-up over time across projects to promote healthier code
 
-## TODO
+## Related Projects
 
--   [ ] For React projects, there will be a separate config that includes the react-specific stuff that extends this
-        one.
+-   [`@carimus/eslint-config-react`](https://github.com/Carimus/eslint-config-react) for React Web projects
+-   [`@carimus/eslint-config-react-native`](https://github.com/Carimus/eslint-config-react-native) for React Native
+    projects
+-   [`@carimus/prettier-config`](https://github.com/Carimus/prettier-config) to configure Prettier.
